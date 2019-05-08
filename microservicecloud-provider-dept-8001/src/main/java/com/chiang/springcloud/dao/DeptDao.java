@@ -9,5 +9,5 @@ import com.chiang.springcloud.entities.Dept;
 public interface DeptDao {
 	public boolean addDept(Dept dept);
 	public Dept findById(Long id);
-	public List<?> findAll();
+	public List<Dept> findAll();
 }
