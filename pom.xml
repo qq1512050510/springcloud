@@ -16,6 +16,7 @@
 		<lombok.version>1.16.20</lombok.version>
 		<guava.version>19.0</guava.version>
 		<flowable.version>6.4.0</flowable.version>
+		<activiti-version>5.22.0</activiti-version>
 	</properties>
 
 	<dependencyManagement>
