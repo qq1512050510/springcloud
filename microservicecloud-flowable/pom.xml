@@ -15,17 +15,6 @@
 			<artifactId>flowable-engine</artifactId>
 			<version>${flowable.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.activiti</groupId>
-			<artifactId>activiti-engine</artifactId>
-			<version>${activiti-version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.activiti</groupId>
-			<artifactId>activiti-spring</artifactId>
-			<version>${activiti-version}</version>
-		</dependency>
-
 		<!-- slf4j 依赖包 -->
 		<dependency>
 			<groupId>org.slf4j</groupId>

@@ -103,6 +103,7 @@
 		<module>microservicecloud-api</module>
 		<module>microservicecloud-flowable</module>
 		<module>microservicecloud-provider-dept-8001</module>
+		<module>microservicecloud-activiti</module>
 	</modules>
 </project>
 

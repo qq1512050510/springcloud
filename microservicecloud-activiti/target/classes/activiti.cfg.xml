@@ -21,8 +21,8 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
 	 -->
 	<bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
 		<!-- 连接数据的配置 -->
-		<property name="jdbcDriver" value="com.mysql.jdbc.Driver"></property>
-		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/itcast0711activiti?useUnicode=true&amp;characterEncoding=utf8"></property>
+		<property name="jdbcDriver" value="com.mysql.cj.jdbc.Driver"></property>
+		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/flowable?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;characterEncoding=UTF-8&amp;useSSL=true"></property>
 		<property name="jdbcUsername" value="root"></property>
 		<property name="jdbcPassword" value="success"></property>
 		<!-- 没有表创建表 -->
