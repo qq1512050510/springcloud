@@ -1,4 +1,4 @@
-package com.chiang.f_sequenceFlow;
+package com.chiang.activiti.bean;
 
 import java.io.Serializable;
 
