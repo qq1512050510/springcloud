@@ -7,7 +7,7 @@
 		<artifactId>microservicecloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>microservicecloud-provider-dept-80</artifactId>
+	<artifactId>microservicecloud-consumer-dept-80</artifactId>
 	<description>部门微服务消费者</description>
 
 	<dependencies>
