@@ -105,6 +105,7 @@
 		<module>microservicecloud-provider-dept-8001</module>
 		<module>microservicecloud-activiti</module>
 		<module>microservicecloud-provider-dept-80</module>
+		<module>microservicecloud-eureka-7001</module>
 	</modules>
 </project>
 
