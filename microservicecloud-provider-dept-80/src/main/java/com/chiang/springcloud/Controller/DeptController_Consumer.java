@@ -3,6 +3,9 @@ package com.chiang.springcloud.Controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,8 +14,15 @@ import org.springframework.web.client.RestTemplate;
 import com.chiang.springcloud.entities.Dept;
 
 @RestController
+//@ConfigurationProperties(prefix = "spring.datasource")
+@PropertySource("classpath:/application.yml")
 public class DeptController_Consumer {
+	
+	
 	private static final String REST_URL_PREFIX="http://localhost:8001";
+	
+	@Value("${rest_url_prefix}")
+	private String url;
 	/**
 	 * 
 	 */
@@ -32,6 +42,7 @@ public class DeptController_Consumer {
 	@SuppressWarnings("unchecked")
 	@RequestMapping(value="/consumer/dept/list")
 	public List<Dept> list() {
+		System.out.println(url);
 		return restTemplate.getForObject(REST_URL_PREFIX+"/dept/list", List.class);
 	}
 	
