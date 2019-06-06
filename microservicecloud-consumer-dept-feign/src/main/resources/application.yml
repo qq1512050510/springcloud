@@ -2,6 +2,9 @@ server:
   port: 80
   #context-path: /dept  #工程名配置
   
+feign:
+  hystrix:
+    enabled: true
 
 #eureka:
 #  client:
