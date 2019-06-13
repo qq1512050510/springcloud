@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.controller;
+package com.chiang.springcloud.controller;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.atguigu.myrule;
+package com.chiang.myrule;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

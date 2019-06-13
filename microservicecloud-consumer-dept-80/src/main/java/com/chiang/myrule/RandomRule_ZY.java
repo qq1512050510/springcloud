@@ -1,4 +1,4 @@
-package com.atguigu.myrule;
+package com.chiang.myrule;
 
 import java.util.List;
 

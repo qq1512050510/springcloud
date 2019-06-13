@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.cfgbeans;
+package com.chiang.springcloud.cfgbeans;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
