@@ -12,7 +12,21 @@ eureka:
   instance:
     instance-id: gateway-9527.com
     prefer-ip-address: true 
- 
+    
+zuul:
+  #前缀  url:myzuul.com:9527/chiang/mydept/dept/get/1
+  prefix: /chiang
+  #忽略url1
+  ignored-services: microservicecloud-dept
+  #忽略所有
+  #ignored-services: "*"
+  routes:
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/**
+    
+    
+#url1: myzuul.com:9527/microservicecloud-dept/dept/get/1
+#url: myzuul.com:9527/mydept/dept/get/1
  
 #zuul: 
   #ignored-services: microservicecloud-dept
