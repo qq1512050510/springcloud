@@ -1,8 +1,9 @@
-127.0.0.1 localhost
+127.0.0.1  localhost
 127.0.0.1  eureka7001.com
 127.0.0.1  eureka7002.com
 127.0.0.1  eureka7003.com
 127.0.0.1  www.sublimetext.com
 127.0.0.1  license.sublimehq.com
 127.0.0.1  myzuul.com
-192.168.43.95 windows10.microdone.cn
+127.0.0.1  config-3344.com
+172.17.129.214 windows10.microdone.cn
