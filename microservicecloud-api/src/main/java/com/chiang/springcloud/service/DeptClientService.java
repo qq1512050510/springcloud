@@ -17,8 +17,8 @@ import com.chiang.springcloud.entities.Dept;
 新建
 
 一个实现了FallbackFactory接口的类DeptClientServiceFallbackFactory
- * @author zzyy
- * @date 2018年4月21日
+ * @author Chiang
+ * @date 2019年9月28日
  */
 //@FeignClient(value = "MICROSERVICECLOUD-DEPT")
 @FeignClient(value = "MICROSERVICECLOUD-DEPT",fallbackFactory=DeptClientServiceFallbackFactory.class)
