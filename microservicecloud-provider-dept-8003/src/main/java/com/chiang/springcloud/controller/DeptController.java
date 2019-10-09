@@ -37,6 +37,11 @@ public class DeptController {
 		return service.list();
 	}
 	
+	@RequestMapping(value="/dept/list",method=RequestMethod.POST)
+	public List<Dept> listPost() {
+		return service.list();
+	}
+	
 	@RequestMapping(value = "/dept/discovery", method = RequestMethod.GET)
 	public Object discovery()
 	{
