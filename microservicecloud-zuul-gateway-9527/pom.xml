@@ -34,7 +34,7 @@
 		</dependency>
 		<!-- 日常标配 -->
 		<dependency>
-			<groupId>com.atguigu.springcloud</groupId>
+			<groupId>com.chiang.springcloud</groupId>
 			<artifactId>microservicecloud-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
