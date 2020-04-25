@@ -6,7 +6,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>microserviceclou-eureka-7001</artifactId>
+	<artifactId>microservicecloud-eureka-7001</artifactId>
 
 	<dependencies>
 		<!-- SpringCloudConfig配置 -->
